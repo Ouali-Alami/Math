@@ -5,7 +5,7 @@
 # to obtain each digit otherwise it is strictly useless
 # the time complexity will be even worse because 
 # you will apply the modulo on each of the numbers' digit
-# we can apply the same algorithm for the divider 9
+# we can apply the same algorithm for the divider 9 (3 divide 9 ;-)
 # source : 
 def IsDivisbleByThree(x) -> bool:
     number = str(x)
@@ -32,7 +32,7 @@ def IsCongruentModThree(a , b) -> bool:
 # there are more than 4 ways to solve congruent equation
 # the major law of composition AND properties of {N}  are applicable
 # 4 things to remember:
-#1 - k can be negative (b>a)
+#1 - k in {Z} so can be negative (b>a)
 #2 - a = b + nk
 #3 - u can turn neg to pos number with -+mod n try to simply at min(-1 , 1)
 #4 - very useful for big numbers like exp... everything is about distance...
